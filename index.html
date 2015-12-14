@@ -121,8 +121,8 @@
 	</p>
 	<script type="text/javascript">
 		function GameDetails( servername, serverurl, mapname, maxplayers, steamid, gamemode ) {
-			document.getElementById("Server").innerHTML = servername;
-			document.getElementById("Map").innerHTML = mapname;
+			document.getElementsByClassName("Server").innerHTML = servername;
+			document.getElementsByClassName("Map").innerHTML = mapname;
 		}
 		function DownloadingFile( fileName ) {
 			document.getElementById("FileLoad").innerHTML = fileName;
