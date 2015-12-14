@@ -5,7 +5,7 @@
 <head>
 	<title>Suk a D!™</title>
 	<?php
-		%m = $_GET[mapname];
+		$map = $_GET["mapname"];
 	?>
 	<style>
 		#header {
