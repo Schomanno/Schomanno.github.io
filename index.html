@@ -4,6 +4,9 @@
 
 <head>
 	<title>Suk a D!™</title>
+	<?php
+		$mapname = $_GET[mapname];
+	?>
 	<style>
 		#header {
     			width:1200px;
@@ -72,7 +75,7 @@
 <h1>Welcome to Fancy's Fun-Box!</h1>
 <p>Here, you can touch butts without public criticism.</p>
 <p>Being caught publicly criticizing someone's butt touching is punishable by lethal juxtaposition.</p>
-<h4>Current map:</h4> <p id="Map">Lmao</p>
+<h4><?php echo "Current map: $mapname"; ?></h4>
 <pre><p class="nihilanth">
                                        ,.                                       
                                 .@▒▒▒▒▒▒▒▒▒▒▒▄,                                 
