@@ -51,7 +51,7 @@ Boo.
 -->
 <div class="centerheader">
 <pre>
-<h2 id="demo"><b>Fire! Fire! Fire!</b></h2>
+<h2 id="demo"><b>Fire! Fire! Fire?</b></h2>
 </pre>
 </div>
 <!--
@@ -63,9 +63,9 @@ myFunction()
 </script>
 -->
 <script>
-function SetStatusChanged( status ) {    
+function SetStatusChanged( status ) {
+document.getElementById('loadingstatus').innerHTML = status()   
 }
-myFunction()
 </script>
 <div class="centerart">
 <pre>
