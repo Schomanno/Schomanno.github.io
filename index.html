@@ -1,68 +1,32 @@
 <html>
 <head>
-<title>Cake!</title>
-<style>
-body {
-  background-color: #000000; /*#2b1400*/
-}
-h2 {
-  color: #e1a201; /*#e1a201*/
-  font-family: Courier;
-}
-p {
-  color: #e1a201;
-  font-family: Courier;
-}
-.extra {
-  font-size: 1.0em;
-}
-.centerheader {
-  text-align: center;
-}
-.centerart {
-  margin: auto;
-  width: 400px;
-  /*border: 3px solid #2b1400;*/
-  padding: 0px;
-}
-.centerartbird {
-  margin: auto;
-  width: 270px;
-  /*border: 3px solid #2b1400;*/
-  padding: 0px;
-}
-.padding {
-  margin: auto;
-  width: 4px;
-  /*border: 3px solid #2b1400;*/
-  padding: 6%;
-}
-</style>
-<script type="text/javascript" src="js/thirdparty/jquery.js"></script>
+<title>Fire! Fire! Fire!</title>
+<link rel="stylesheet" href="http://schomanno.github.io/styles.css">
 </head>
 <body>
-<div class="padding"></div>
-<div class="centerart" id="art"><pre><pre><p>
-            ,:/+/-
-            /M/              .,-=;//;-
-       .:/= ;MH/,    ,=/+%$XH@MM#@:
-      -$##@+$###@H@MMM#######H:.    -/H#
- .,H@H@ X######@ -H#####@+-     -+H###@X
-  .,@##H;      +XM##M/,     =%@###@X;-
-X%-  :M##########$.    .:%M###@%:
-M##H,   +H@@@$/-.  ,;$M###@%,          -
-M####M=,,---,.-%%H####M$:          ,+@##
-@##################@/.         :%H##@$-
-M###############H,         ;HM##M$=
-#################.    .=$M##M$=
-################H..;XM##M$=          .:+
-M###################@%=           =+@MH%
-@#################M/.         =+H#X%=
-=+M###############M,      ,/X#H+:,
-  .;XM###########H=   ,/X#H+:;
-     .=+HM#######M+/+HM@+=.
-         ,:/%XM####H/.
-              ,.:=-.
+<div class="centerart">
+<pre>
+<p>
+                     -$-
+                    .H##H,
+                   +######+
+                .+#########H.
+              -$############@.
+            =H###############@  -X:
+          .$##################:  @#@-
+     ,;  .M###################;  H###;
+   ;@#:  @###################@  ,#####:
+ -M###.  M#################@.  ;######H
+ M####-  +###############$   =@#######X
+ H####$   -M###########+   :#########M,
+  /####X-   =########%   :M########@/.
+    ,;%H@X;   .$###X   :##MM@%+;:-
+                 ..
+  -/;:-,.              ,,-==+M########H
+ -##################@HX%%+%%$%%%+:,,
+    .-/H%%%+%%$H@###############M@+=:/+:
+/XHX%:#####MH%=    ,---:;;;;/&&XHM,:###$
+$@#MX %+;-                           .
 <!--
                    .--.    
                  ."  o \_  
@@ -82,43 +46,13 @@ M###################@%=           =+@MH%
         /`/`          `'"` 
       / /^\                
 -->
-</p></pre></div>
-<div class="centerheader">
-<p class="extra" id="line1"><b><br></b></p>
-<p class="extra" id="line2"></p>
-<p class="extra" id="line3"></p>
+</p>
+</pre>
 </div>
-<script type="text/javascript">
-
-	//Called at the start, when the loading screen finishes loading all assets.
-	function GameDetails( servername, serverurl, mapname, maxplayers, steamid, gamemode, volume, lang )
-	{
-		$("#line1").html("<b>Welcome to " + servername + "!</b><br>");
-		$("#line1").append("<b>Map: " + mapname + "</b><br>");
-		$("#line1").append("<b>Gamemode: " + gamemode + "</b>");
-		$("#line2").html( " ");
-		$("#line3").html( " ");
-	}
-
-	// Called when the client starts downloading a file.
-	function DownloadingFile( file )
-	{
-		$("#line3").html( "<b>Downloading <i>" + file + "...</i></b>");
-	}
-
-	// Called when the number of files remaining for the client to download changes.
-	function SetFilesNeeded( needed )
-	{
-		$("#line3").html( "<b>" + needed + " more left to go!</b>");
-	}
-
-	// Called when the client's joining status changes.
-	function SetStatusChanged( status )
-	{
-		$("#line2").html( "<b>" + status + "</b>");
-		$("#line3").html( " ");
-	}
-
-</script>
+<div class="centerheader">
+<pre>
+<p><b>Fire! Fire! Fire!</b></p>
+</pre>
+</div>
 </body>
 </html>
