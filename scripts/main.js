@@ -5,7 +5,7 @@
     var LOAD = {};
 
     /**
-     * Initialize the loading screen.
+     * Initialize the loading screen. I'm sorry.
      */
     LOAD.init = function () {
         this.progress = 0.0;
