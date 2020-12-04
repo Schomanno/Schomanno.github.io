@@ -9,17 +9,27 @@ p {
   color: #e1a201;
   font-family: Courier;
 }
+.extra {
+  font-size: 1.0em;
+}
 .centerheader {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 150%); /*translate(-50%, -250%)*/
+  text-align: center;
 }
 .centerart {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -60%); /*translate(-50%, -40%)*/
+  margin: auto;
+  width: 400px;
+  /*border: 3px solid #2b1400;*/
+  padding: 0px;
+}
+.centerartbird {
+  margin: auto;
+  width: 270px;
+  /*border: 3px solid #2b1400;*/
+  padding: 0px;
+}
+.padding {
+  margin: auto;
+  width: 4px;
+  /*border: 3px solid #2b1400;*/
+  padding: 6%;
 }
