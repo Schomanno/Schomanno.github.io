@@ -1,48 +1,40 @@
 body {
   background-color: #000000; /*#2b1400*/
 }
-h2 {
-  color: #e1a201; /*#e1a201*/
-  font-family: Courier;
-}
 p {
   color: #e1a201;
   font-family: Courier;
 }
-.extra {
+.centerizer { 
+  height: 99%;
+  position: relative;
+  border: 0px solid green;
+}
+.feature {
+  margin: 0;
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 0px solid blue;
+}
+.featurenotext {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 0px solid blue;
+}
+.art {
+  border: 0px solid red;
+}
+.bottomtext {
   font-size: 1.0em;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 200px);
+  border: 0px solid yellow;
 }
-.centerheader {
-  text-align: center;
-}
-.centerart {
-  margin: auto;
-  width: 400px;
-  /*border: 3px solid #2b1400;*/
-  padding: 0px;
-}
-.centerartbird {
-  margin: auto;
-  width: 270px;
-  /*border: 3px solid #2b1400;*/
-  padding: 0px;
-}
-.centerartgoatse {
-  margin: auto;
-  width: 1170px;
-  /*border: 3px solid #2b1400;*/
-  padding: 0px;
-}
-.padding {
-  margin: auto;
-  width: 4px;
-  /*border: 3px solid #2b1400;*/
-  padding: 6%;
-}
-.paddingsmall {
-  margin: auto;
-  width: 4px;
-  /*border: 3px solid #2b1400;*/
-  padding: 2%;
-}
-
