@@ -38,3 +38,21 @@ p {
   transform: translate(-50%, 200px);
   border: 0px solid yellow;
 }
+.bottomtext2 {
+  font-size: 1.0em;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 254px);
+  border: 0px solid yellow;
+}
+.bottomtext3 {
+  font-size: 1.0em;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 272px);
+  border: 0px solid yellow;
+}
